@@ -1,0 +1,130 @@
+<!-- <div class="frm">
+    <div class="ct">
+        <h1 style="text-align: center; padding-top: 40px;">CONTACT US FOR MORE QUERIES</h1> 
+            <h1>Connect with us</h1>
+            <p>We would love to respond to yoour queries and help you succeed your goal . Feel free to get in touch with us</p>
+            <div class="contact-box">
+                <div class="contact-left">
+        <form class="example-form" (ngSubmit)="submit()">
+            <mat-form-field appearance="fill">
+                <mat-label>Name</mat-label>
+                <input matInput [(ngModel)]="fname" [ngModelOptions]="{standalone: true}">
+            </mat-form-field>
+            <br>
+            <mat-form-field appearance="fill">
+                <mat-label>Email</mat-label>
+                <input matInput [(ngModel)]="email" [ngModelOptions]="{standalone: true}">
+            </mat-form-field>
+            <br>
+            
+            <br>
+            <mat-form-field appearance="fill">
+                <mat-label>Message</mat-label>
+                <textarea matInput [(ngModel)]="message" [ngModelOptions]="{standalone: true}"></textarea>
+            </mat-form-field>
+            <br>
+            <mat-card-actions>
+                <button type="submit" class="b">Submit Enquiry</button>
+            </mat-card-actions>
+        
+        </div>
+        </form> 
+        </div>       
+    </div> 
+</div>   -->
+
+
+
+<div class="container">
+    <h1>CONNECT WITH US</h1>
+    <h3>We would love to respond to your queries and help you succeed your goal . Feel free to get in touch with us.</h3>
+    <div class="contact-box">
+        <div class="contact-left">
+            <h3>Send your request</h3>
+            <form class="example-form" (ngSubmit)="submit()">
+                <mat-form-field appearance="fill">
+                    <mat-label>Name</mat-label>
+                    <input matInput [(ngModel)]="fname" [ngModelOptions]="{standalone: true}">
+                </mat-form-field>
+                <br>
+                <mat-form-field appearance="fill">
+                    <mat-label>Email</mat-label>
+                    <input matInput [(ngModel)]="email" [ngModelOptions]="{standalone: true}">
+                </mat-form-field>
+                <br>
+                
+                <br>
+                <mat-form-field appearance="fill">
+                    <mat-label>Your Message</mat-label>
+                    <textarea rows = "5" matInput [(ngModel)]="message" [ngModelOptions]="{standalone: true}"></textarea>
+                </mat-form-field>
+                <br>
+                <mat-card-actions>
+                    <button type="submit" class="b">Submit Enquiry</button>
+                </mat-card-actions>
+            
+            
+            </form> 
+        </div>
+        <div class="contact-right">
+            <h3>Reach us</h3>
+            <table>
+                <tr>
+                    <td>Email</td>
+                    <td>Contactus@example.com</td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td>+1 0112 345 6789</td>
+                    
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>#212 Ground floor, 7th cross <br>
+                    koramangal , Bengaluru </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="contact">
+<div class="example-form" (ngSubmit)="submit()">
+      <mat-dialog-content>
+      <header>
+        <h1>Contact us for queries</h1>
+    </header>
+    <div class="cen">
+    <p><mat-form-field>
+        <input matInput placeholder="Name" [(ngModel)]="fname" [ngModelOptions]="{standalone: true}">
+        <mat-icon matSuffix>person</mat-icon>
+    </mat-form-field></p>
+    <p><mat-form-field>
+        <input matInput placeholder="Email" [(ngModel)]="email" [ngModelOptions]="{standalone: true}">
+        <mat-icon matSuffix>drafts</mat-icon>
+    </mat-form-field></p>
+    <p><mat-form-field>
+        <input matInput placeholder="Message" [(ngModel)]="message" [ngModelOptions]="{standalone: true}">
+        <mat-icon matSuffix>save</mat-icon>
+    </mat-form-field></p>
+    </div>
+      </mat-dialog-content>
+ <mat-dialog-actions align="center">
+    <button mat-raised-button color="primary">Submit</button>
+
+</mat-dialog-actions> -->
+<!-- <mat-card-actions>
+    <button type="submit" class="b">Submit Enquiry</button>
+</mat-card-actions>
+</div>
+</div>  -->
+

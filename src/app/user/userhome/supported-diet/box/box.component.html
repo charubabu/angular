@@ -1,0 +1,13 @@
+<mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{pd.category | uppercase}}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="http://localhost/{{pd.image}}" alt="Photo of a Shiba Inu" class="image">
+    
+    <mat-card-actions>
+      <!-- <a style="cursor: pointer;" (click)="changeRoute()">DETAILS</a> -->
+      <!-- <a routerLink = "/detailsbox/{{pd.id}}">details</a> -->
+      <button type="button" class="btn btn-dark" routerLink = "/detailsbox/{{pd.id}}" >Details</button>
+      </mat-card-actions>
+  </mat-card>

@@ -1,0 +1,45 @@
+
+ <!-- <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{ pd.Food }}</mat-card-title>
+      <mat-card-subtitle>{{ pd.Category }}</mat-card-subtitle>
+    </mat-card-header>
+    <img
+      style="width: 200px"
+      mat-card-image
+      src="http://localhost/{{ pd.image }}"
+      alt="Category"
+    />
+    <mat-card-actions>
+      <button mat-button>
+        <a routerLink="/categorydetails/{{pd.id}}" class="buttonbox">Details</a>
+      </button>
+  
+      <button mat-button>SHARE</button> 
+     </mat-card-actions>
+  </mat-card>   -->
+
+  
+  <div class="container mt-5 mb-5">
+  <div class="row">
+    
+
+        <div class="col-12" >
+
+            <div class="foodbox mt-3 mb-3">
+                <img src="http://localhost/{{ pd.image }}">
+                <h1>{{pd.Category}}</h1>
+                <p>{{pd.Food}}</p>
+                <br/>
+                <a routerLink="/categorydetails/{{pd.id}}" class="buttonbox">Nutritional Values</a>
+            </div>
+            </div>
+
+     
+
+
+
+    </div>
+
+</div>

@@ -1,0 +1,25 @@
+/* .values{
+    padding-left: 20px;
+    text-align: center;
+}
+h2{
+    padding-left : 30px;
+} */
+
+.det{
+
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image:  url(http://localhost/category.jpg);  
+    height: 550px;
+    background-position: center top;
+    background-size: cover;
+
+   
+}
+.example-card{
+   width:300px;
+}
