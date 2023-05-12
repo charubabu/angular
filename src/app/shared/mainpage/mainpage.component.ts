@@ -9,8 +9,9 @@ import { UserService } from 'src/app/services/user.service';
 })
 export class MainpageComponent {
 log: any;
+
 constructor(private router:Router,private route:ActivatedRoute,
-  public userService: UserService){}
+  public userService: UserService,){}
 navigate(url:string){
   if(url==""){
     window.location.reload()

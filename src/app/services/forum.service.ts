@@ -11,21 +11,9 @@ export class ForumService {
   constructor(private http:HttpClient) {
 
     this.httpOptions = {
-
-
-
       headers: new HttpHeaders({
-
-     
-
       'Content-Type': 'application/json',
-
-     
-
       'Authorization': "Bearer "+sessionStorage.getItem("token")
-
-     
-
       })
 
      
@@ -36,14 +24,26 @@ export class ForumService {
 
   getForum():Observable<any>{
 
-    return this.http.get("http://localhost:4500/660/forum",this.httpOptions)
+    return this.http.get("http://localhost:4500/forum",this.httpOptions)
 
   }
 
   postForum(obj:any):Observable<any>{
 
-    return this.http.post("http://localhost:4500/660/forum/",obj,this.httpOptions)
+    return this.http.post("http://localhost:4500/forum/",obj,this.httpOptions)
 
   }
+
+  updateForum(obj:any,id:any):Observable<any>{
+    return this.http.patch("http://localhost:4500/forum/"+id,obj,this.httpOptions)
+  }
+  getUsers():Observable<any>{
+    return this.http.get("http://localhost:4500/users",this.httpOptions)
+  }
+
+
+
+
+
 
 }

@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import { MatPaginator } from '@angular/material/paginator';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { MatTableDataSource } from '@angular/material/table';
 import { DietPlanService } from 'src/app/services/diet-plan.service';
 import { FooditemsService } from 'src/app/services/fooditems.service';
 // export interface User{
@@ -20,12 +22,15 @@ import { FooditemsService } from 'src/app/services/fooditems.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
+ 
   gdata:any;
   searchText:any;
   constructor(private cs:FooditemsService, private dietPlanService: DietPlanService,private matSnackBar: MatSnackBar ){
    
     this.getProducts()
   }
+
+ 
 
   removeItem(id: any){
     this.dietPlanService.removeDietPlan(id).subscribe(res =>{

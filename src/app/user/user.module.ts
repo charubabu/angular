@@ -16,9 +16,14 @@ import { CategoryBoxComponent } from './userhome/category/category-box/category-
 import { FiltertypePipe } from '../pipes/filtertype.pipe';
 import { DetailsBoxComponent } from './userhome/supported-diet/box/details-box/details-box.component';
 import { CategoryDetailsComponent } from './userhome/category/category-box/category-details/category-details.component';
-import { MainpageComponent } from '../shared/mainpage/mainpage.component';
 import { ContactComponent } from './userhome/contact/contact.component';
 import { ForumComponent } from './userhome/forum/forum.component';
+import { OwnComponent } from './userhome/own/own.component';
+import { ForumBoxComponent } from './userhome/forum/forum-box/forum-box.component';
+import { Header2Component } from '../admin/header2/header2.component';
+import { AforumComponent } from '../admin/aforum/aforum.component';
+import { Complaint2Component } from '../admin/complaint2/complaint2.component';
+import { HttpClientModule } from '@angular/common/http';
 
 const route:Routes=[
   {path: 'categorydetails/:id', component : CategoryDetailsComponent},
@@ -46,6 +51,18 @@ const route:Routes=[
     {
       path:"forum",
       component: ForumComponent
+    },
+    {
+      path:"own",
+      component: OwnComponent
+    },
+    {
+      path: "forum2",
+      component: AforumComponent
+    },
+    {
+      path: 'complaints',
+      component : Complaint2Component
     }
   ]
 }
@@ -67,7 +84,9 @@ const route:Routes=[
     DetailsBoxComponent,
     CategoryDetailsComponent,
     ContactComponent,
-    ForumComponent    
+    ForumComponent,
+    OwnComponent,
+    ForumBoxComponent    
   ],
   imports: [
     CommonModule,
@@ -75,7 +94,8 @@ const route:Routes=[
     MaterialModule,
     SharedModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
 
   exports: [RouterModule]

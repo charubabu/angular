@@ -3,37 +3,18 @@
     {
       "id": 1,
       "username": "charu",
-      "comment": "helloooooo"
-    },
-    {
-      "id": 2,
-      "username": "anjali",
-      "comment": "heloooooo"
-    },
-    {
-      "id": 3,
-      "username": "vamsi",
-      "comment": "helloooooo"
-    },
-    {
-      "id": 4,
-      "username": "vishanthan",
-      "comment": "hii"
-    },
-    {
-      "usernmae": "monika",
-      "comment": "hellllloooo",
-      "id": 5
-    },
-    {
-      "usernmae": "chidanand",
-      "comment": "heee",
-      "id": 6
+      "comment": "helloooooo",
+      "reply": [
+        {
+          "username": "charu",
+          "comment": "helloooooo"
+        }
+      ]
     },
     {
       "usernmae": "admin",
-      "comment": "heyyyy",
-      "id": 7
+      "comment": "hellllllo",
+      "id": 2
     }
   ],
   "complaints": [
@@ -52,144 +33,21 @@
     },
     {
       "id": 16360
+    },
+    {
+      "id": 79934,
+      "fname": "vamsi",
+      "email": "vamasi@gmail.com",
+      "message": "hey"
     }
   ],
   "users": [
-    {
-      "email": "anil@gmail.com",
-      "password": "$2a$10$qLCzxp8bYoFl0TUnM3khkOQed/oj6p0Vi9m91/WIlZqn6dzwsD",
-      "firstname": "A",
-      "lastname": "Ku",
-      "id": 1
-    },
-    {
-      "email": "rahul@gmail.com",
-      "password": "$2a$10$GN3udmMj3FOG3Ya.tp5VmuBqBVwY0dYU1ro74BpVxs8xB0./Gq",
-      "username": "rahul",
-      "lastname": "krishna",
-      "type": "user",
-      "id": 2
-    },
-    {
-      "email": "roger@gmail",
-      "password": "$2a$10$8VfL/mTrUsF7CsmFZBNCXuYKao0PM9CrOIxTn0iqWYoKD0vwPE",
-      "username": "ro",
-      "lastname": "Fede",
-      "type": "admin",
-      "id": 4
-    },
-    {
-      "email": "kiran@gmail",
-      "password": "$2a$10$QxNGN1c9fIgWiQ5KHNwZnOWlZq8cJm/xM27oriUKLGptO8s9Pb",
-      "username": "ki",
-      "type": "user",
-      "id": 5
-    },
-    {
-      "email": "jackson@gmail.",
-      "password": "$2a$10$.ZPImtvO49SX6YMHepjxV.PXhJoEDXuxnCtHG2bQ2KY/NErZ0S",
-      "username": "jack",
-      "type": "admin",
-      "lastname": "Mike",
-      "id": 6
-    },
-    {
-      "email": "naresh@gmail.",
-      "password": "$2a$10$OhQd/XS2d3PAiWrNnYWXleoGC.2bMdZajo/yd5BSAxbGeqLw7Y",
-      "username": "nar",
-      "type": "user",
-      "lastname": "M",
-      "id": 7
-    },
-    {
-      "email": "charubabu15@gmail.com",
-      "password": "$2a$10$kipxflGdUfInaxsFcj0YfO2crQ.ThdCMc3.M.hJQ1A6WFbFJWzh0y",
-      "username": "charu",
-      "type": "user",
-      "id": 8
-    },
-    {
-      "email": "chidanand@gmail.com",
-      "password": "$2a$10$vFoOE94MAAqNo9c9CpifmO/nPWmb9NQ9uZTqmTn5.I4EVGU1thmrW",
-      "username": "chida",
-      "type": "admin",
-      "id": 9
-    },
-    {
-      "email": "anjali@gmail.com",
-      "password": "$2a$10$D0TcxWWkV498OJpRymUvleYMuQyinj9uAKfTMNNXen.oZzLejxVDy",
-      "username": "Anjali",
-      "type": "user",
-      "id": 10
-    },
-    {
-      "email": "vamsi@gmail.com",
-      "password": "$2a$10$6Gtcmfw3aDENOjvY8ggG/ub6bviXy7VbympeMLMJWUXgxdM6/UEnm",
-      "username": "vamsi",
-      "type": "user",
-      "id": 11
-    },
-    {
-      "email": "vishanthan@gmail.com",
-      "password": "$2a$10$u7y1j9HPmwc8WsM/L3cFueASEk3DjYnnrZFwvcgweeW1YpaCRwUGy",
-      "username": "vishanthan shree",
-      "type": "user",
-      "id": 12
-    },
-    {
-      "email": "hello@gmail.com",
-      "password": "$2a$10$9MYAyYwB3E4Yze5EIFSh7e88Gv3llQVWhRNdZGHTG7QLIU7GDMa2y",
-      "username": "hello",
-      "type": "user",
-      "id": 13
-    },
-    {
-      "email": "yellow@gmail.com",
-      "password": "$2a$10$0MZyMyVM.2GPadML6TLxMu68kKqH0VtmmXdxGmODrNfcykaV.93Iy",
-      "username": "yellow",
-      "type": "user",
-      "id": 14
-    },
-    {
-      "email": "vichu@gmail.com",
-      "password": "$2a$10$qvKqPSHKHrtuqZe610xuo.vmvazQntmhqNmUM2edl3B9ox5CAQ6WC",
-      "username": "vichu",
-      "type": "user",
-      "id": 15
-    },
-    {
-      "email": "monika@gmail.com",
-      "password": "$2a$10$6sexrgwNfrX5CR2w8hJbhO74MxUJkuCtKFrUVRQGPd0eeFmwfJH56",
-      "username": "monika",
-      "type": "user",
-      "id": 16
-    },
-    {
-      "email": "chida1602@gmail.com",
-      "password": "$2a$10$Uo.LrTop2POxx46fJyuMMuvH3xeELs0r/4CPgmGPCgxta46axIE46",
-      "username": "chidanand",
-      "type": "admin",
-      "id": 17
-    },
-    {
-      "email": "yyy@gmail.com",
-      "password": "$2a$10$ES8yEd8zTtlaHK8QzgCZKeJeQ6GHFqx5MmSabttiw6h/UT5vng4HS",
-      "username": "yyyy",
-      "type": "user",
-      "id": 18
-    },
-    {
-      "email": "fridge@gmail.com",
-      "password": "$2a$10$lcvKXwU8z4TIpzKnx9SdNeviHUV1XQNGhDQFakM29CKm.pbloeq7S",
-      "username": "fridge",
-      "type": "user",
-      "id": 19
-    },
     {
       "email": "charumathi@gmail.com",
       "password": "$2a$10$1lU5nBIE6gsfdVqvGiKb7Oo4FUKcOyonsQ5i/Qri1AD.mfVX40W02",
       "username": "charumathi",
       "type": "user",
+      "isAdmin": false,
       "id": 20
     },
     {
@@ -197,6 +55,7 @@
       "password": "$2a$10$xUDncErmxLqIF5doZXXOrek.daFLKplmgFltdMLyCmy.7Y14V1PMW",
       "username": "admin",
       "type": "admin",
+      "isAdmin": true,
       "id": 21
     }
   ],
@@ -1018,19 +877,6 @@
       "Carbs": 0,
       "Category": "Fish, Seafood",
       "image": "ima14.jpg"
-    },
-    {
-      "Food": "chocolate iccream",
-      "Measure": "85",
-      "Grams": "89",
-      "Calories": "23",
-      "Protein": "90",
-      "Fat": "90",
-      "Sat_Fat": "87",
-      "Fiber": "12",
-      "Carbs": "998",
-      "Category": "dairy products",
-      "id": 53
     }
   ]
 }

@@ -13,6 +13,7 @@
     <table class = 'table table-trapped'>
         <thead>
             <tr>
+                <th>No</th>
                 <th>FOOD</th>
                 <th>CATEGORY</th>
                 <th>MEASURE</th>
@@ -26,6 +27,7 @@
         </thead>
         <tbody>
             <tr *ngFor = "let data of gdata | filter : searchText ">
+                <td>{{data.id}}</td>
                 <td>{{data.Food}}</td>
                 <td>{{data.Category}}</td>
                 <td>{{data.Measure}}</td>
@@ -39,3 +41,4 @@
         </tbody>
     </table>
 </div>
+

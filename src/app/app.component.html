@@ -1,2 +1,3 @@
-<app-mainpage *ngIf="currentUrl != '/login'"></app-mainpage>
+<app-mainpage *ngIf="currentUrl != '/login' && !userservice.loggedUserDetails.isAdmin"></app-mainpage>
+<app-shareheader *ngIf="currentUrl != '/login' && userservice.loggedUserDetails.isAdmin"></app-shareheader>
 <router-outlet></router-outlet>

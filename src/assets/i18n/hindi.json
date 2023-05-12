@@ -1,0 +1,13 @@
+{
+    "menubar" : [
+        {
+        "home" : "घर",
+        "Supported Diet plan" : "आहार योजना",
+        "Category" : "वर्ग",
+        "Contact us" : "संपर्क करें",
+        "Forum" : "मंच",
+        "logout" : "लॉग आउट"
+        }
+    ]
+
+}

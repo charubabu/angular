@@ -2,13 +2,14 @@ import { Component } from '@angular/core';
 import { ForumService } from 'src/app/services/forum.service';
 
 @Component({
-  selector: 'app-forum',
-  templateUrl: './forum.component.html',
-  styleUrls: ['./forum.component.css']
+  selector: 'app-aforum',
+  templateUrl: './aforum.component.html',
+  styleUrls: ['./aforum.component.css']
 })
-export class ForumComponent {
+export class AforumComponent {
   forums:any;
   com:any;
+  
   constructor(private fs:ForumService){
       fs.getForum().subscribe({
         next:(data:any)=>this.forums = data,
@@ -21,6 +22,7 @@ export class ForumComponent {
       error:()=>this.forums=[]
     })
   }
+
   onPost(){
     let obj ={
       "usernmae":sessionStorage.getItem("username"),
@@ -35,4 +37,5 @@ export class ForumComponent {
     // window.location.reload()
 
   }
+
 }

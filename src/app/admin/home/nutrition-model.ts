@@ -9,5 +9,6 @@ export class nutrition{
     Sat_Fat: Number;
     Fiber: Number;
     Carbs: Number;
-    Category: String
+    Category: String;
+    Image : String;
   }

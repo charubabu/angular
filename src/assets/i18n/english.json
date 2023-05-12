@@ -1,0 +1,13 @@
+{
+    "menubar" : [
+        {
+        "home" : "home",
+        "Supported Diet plan" : "Supported Diet plan",
+        "Category" : "Category",
+        "Contact us" : "Contact us",
+        "Forum" : "Forum",
+        "logout" : "logout"
+        }
+    ]
+
+}

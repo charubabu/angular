@@ -1,0 +1,9 @@
+.button{
+    padding: 10px;
+    display: flex;
+
+}
+.cls{
+    display: flex;
+    justify-content: center;
+}

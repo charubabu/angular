@@ -1,0 +1,27 @@
+.navbar-light .navbar-nav .nav-link
+{
+    color: var(--secondary-color);
+    
+}
+.navbar-light .navbar-nav .nav-link.active-link
+{
+    color: var(--primary-color);
+    text-decoration: underline;
+    
+}
+
+
+.container-fluid{
+    
+    background-color: #6f42c1;
+    padding:  20px;
+    height : 5rem;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-brand{
+    font-size: larger;
+    font-style: italic;
+
+}

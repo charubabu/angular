@@ -9,13 +9,15 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { UserModule } from './user/user.module';
 import { MainpageComponent } from './shared/mainpage/mainpage.component';
+import { ShareheaderComponent } from './shared/shareheader/shareheader.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    MainpageComponent
+    MainpageComponent,
+    ShareheaderComponent
   ],
   imports: [
     BrowserModule,

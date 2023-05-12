@@ -1,16 +1,12 @@
-<h1>Join the Forum!!</h1>
-
+<h1>DISCUSSION PAGE!!</h1>
 <div class="fb">
-
     <textarea name="fb"  cols="30" rows="10"
-
     [(ngModel)]="com" [ngModelOptions]="{standalone: true}"></textarea>
-
     <button
-
     (click)="onPost()">Post!!</button>
-
 </div>
-
-<p *ngFor="let x of forums">{{x.comment}}</p>
+<!-- <p *ngFor="let x of forums">{{x.comment}}</p> -->
+<div class="fc">
+<app-forum-box *ngFor="let x of forums" [pd]="x"></app-forum-box>
+</div>
 
