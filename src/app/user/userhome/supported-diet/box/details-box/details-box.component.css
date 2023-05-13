@@ -2,17 +2,22 @@ h1{
     text-align: center;
     margin : 50px 0;
     font-size: 30px;
-    color: darkblue;
+    
+    color: rgb(2, 2, 18);
     
 } 
 
 .question{
-    font-size:20px;
+    font-size:25px;
+    font-weight: 600px;
+    padding : 20px;
 
 }
 
 .ans{
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 1.63;
+    font-weight: 400px;
 }
 
 
@@ -21,3 +26,12 @@ h1{
 .head{
     padding: 20px;
 }
+
+.full{
+    background-color: #f2f2f9;;
+    height: 750px;
+    background-position: center top;
+    background-size: cover;
+    
+}
+  
